@@ -49,15 +49,16 @@ npm -v
 
 ```bash
 # 1) Clonar
-git clone <URL_DEL_REPO.git>
-cd Veridian-Flask-React
+
+git clone https://github.com/Veridian-Escasos-de-IA/Veridian-Flask.git
+
+cd Veridian-Flask
 
 # 2) Levantar backend y frontend (ver detalles abajo)
 # Backend (en otra terminal): cd backend && ...
 # Frontend (en otra terminal): cd frontend && ...
 ```
 
----
 
 # 🐍 Backend (Flask)
 
@@ -76,8 +77,11 @@ pip install -r requirements.txt
 ```powershell
 cd backend
 python -m venv .venv
+
 .\.venv\Scripts\Activate.ps1
+
 python -m pip install --upgrade pip
+
 pip install -r requirements.txt
 ```
 

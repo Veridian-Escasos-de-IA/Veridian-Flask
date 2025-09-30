@@ -49,6 +49,7 @@ npm -v
 
 ```bash
 # 1) Clonar
+
 git clone https://github.com/Veridian-Escasos-de-IA/Veridian-Flask.git
 
 cd Veridian-Flask
@@ -58,7 +59,6 @@ cd Veridian-Flask
 # Frontend (en otra terminal): cd frontend && ...
 ```
 
----
 
 # 🐍 Backend (Flask)
 
